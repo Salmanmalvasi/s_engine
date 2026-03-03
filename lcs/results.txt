@@ -1,0 +1,8 @@
+LCS Timing Results
+==================
+n=100: time=4.6e-05 seconds, lcs_length=27
+n=500: time=0.000767 seconds, lcs_length=154
+n=1000: time=0.003269 seconds, lcs_length=315
+n=2000: time=0.013842 seconds, lcs_length=642
+n=3000: time=0.028913 seconds, lcs_length=970
+n=5000: time=0.082384 seconds, lcs_length=1607

@@ -1,0 +1,10 @@
+0/1 Knapsack (Branch and Bound - Binary Tree) Timing Results
+=========================================================
+n=5: time=9.17e-07 seconds, profit=289
+n=10: time=1.958e-06 seconds, profit=519
+n=15: time=1.625e-06 seconds, profit=1075
+n=20: time=2.709e-06 seconds, profit=1552
+n=25: time=4.125e-06 seconds, profit=1709
+n=30: time=3.833e-06 seconds, profit=2445
+n=35: time=5.291e-06 seconds, profit=2306
+n=40: time=5.292e-06 seconds, profit=3543

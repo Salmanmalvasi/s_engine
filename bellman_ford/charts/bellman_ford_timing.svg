@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520">
+  <style>
+    .axis { stroke: #555; stroke-width: 1; }
+    .grid { stroke: #d0d0d0; stroke-width: 0.7; }
+    .label { font: 12px system-ui, -apple-system, Segoe UI, sans-serif; fill: #222; }
+  </style>
+  <rect width="100%" height="100%" fill="#fff" />
+  <text x="450.0" y="30" text-anchor="middle" class="label" font-size="18">Bellman–Ford Timing (O(VE)) — with/without Negative Cycle</text>
+  <line class="axis" x1="80" y1="440" x2="820" y2="440" />
+  <line class="axis" x1="80" y1="80" x2="80" y2="440" />
+  <text x="450.0" y="500" text-anchor="middle" class="label">Number of vertices (n)</text>
+  <text x="20" y="260.0" text-anchor="middle" transform="rotate(-90 20,260.0)" class="label">Time (s)</text>
+  <line class="grid" x1="80.0" y1="80" x2="80.0" y2="440" />
+  <text x="80.0" y="460" text-anchor="middle" class="label">20</text>
+  <line class="grid" x1="80" y1="80.0" x2="820" y2="80.0" />
+  <text x="70" y="84.0" text-anchor="end" class="label">0.001484</text>
+  <line class="grid" x1="265.0" y1="80" x2="265.0" y2="440" />
+  <text x="265.0" y="460" text-anchor="middle" class="label">115</text>
+  <line class="grid" x1="80" y1="170.0" x2="820" y2="170.0" />
+  <text x="70" y="174.0" text-anchor="end" class="label">0.001113</text>
+  <line class="grid" x1="450.0" y1="80" x2="450.0" y2="440" />
+  <text x="450.0" y="460" text-anchor="middle" class="label">210</text>
+  <line class="grid" x1="80" y1="260.0" x2="820" y2="260.0" />
+  <text x="70" y="264.0" text-anchor="end" class="label">0.000742</text>
+  <line class="grid" x1="635.0" y1="80" x2="635.0" y2="440" />
+  <text x="635.0" y="460" text-anchor="middle" class="label">305</text>
+  <line class="grid" x1="80" y1="350.0" x2="820" y2="350.0" />
+  <text x="70" y="354.0" text-anchor="end" class="label">0.000371</text>
+  <line class="grid" x1="820.0" y1="80" x2="820.0" y2="440" />
+  <text x="820.0" y="460" text-anchor="middle" class="label">400</text>
+  <line class="grid" x1="80" y1="440.0" x2="820" y2="440.0" />
+  <text x="70" y="444.0" text-anchor="end" class="label">0.000000</text>
+  <polyline fill="none" stroke="#1f77b4" stroke-width="2" points="80.0,439.82827204812264 138.42105263157896,439.4644416416028 235.78947368421052,438.5851848258465 430.52631578947364,436.02818472882507 820.0,428.83258950228003" />
+  <circle cx="80.0" cy="439.82827204812264" r="4" fill="#1f77b4" />
+  <circle cx="138.42105263157896" cy="439.4644416416028" r="4" fill="#1f77b4" />
+  <circle cx="235.78947368421052" cy="438.5851848258465" r="4" fill="#1f77b4" />
+  <circle cx="430.52631578947364" cy="436.02818472882507" r="4" fill="#1f77b4" />
+  <circle cx="820.0" cy="428.83258950228003" r="4" fill="#1f77b4" />
+  <rect x="80" y="60" width="14" height="14" fill="#1f77b4" />
+  <text x="100" y="72" class="label">No Neg Cycle</text>
+  <polyline fill="none" stroke="#d62728" stroke-width="2" points="80.0,439.59566314155427 138.42105263157896,437.39254875327447 235.78947368421052,427.66008537886876 430.52631578947364,375.1270980886776 820.0,80.0" />
+  <circle cx="80.0" cy="439.59566314155427" r="4" fill="#d62728" />
+  <circle cx="138.42105263157896" cy="437.39254875327447" r="4" fill="#d62728" />
+  <circle cx="235.78947368421052" cy="427.66008537886876" r="4" fill="#d62728" />
+  <circle cx="430.52631578947364" cy="375.1270980886776" r="4" fill="#d62728" />
+  <circle cx="820.0" cy="80.0" r="4" fill="#d62728" />
+  <rect x="250" y="60" width="14" height="14" fill="#d62728" />
+  <text x="270" y="72" class="label">Neg Cycle</text>
+</svg>

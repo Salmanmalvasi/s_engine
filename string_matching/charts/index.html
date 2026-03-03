@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ILP 11 - String Matching Charts</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; margin: 2rem; background: #f4f4f4; }
+    section { margin-bottom: 2rem; background: #fff; padding: 1rem; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,.08); }
+    table { border-collapse: collapse; margin-top: 1rem; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px 14px; text-align: right; }
+    th { background: #f0f0f0; text-align: right; }
+    td:first-child, th:first-child { text-align: left; }
+  </style>
+</head>
+<body>
+  <h1>ILP 11 — Naive String Matching & Rabin–Karp</h1>
+  <section>
+    <h2>Combined Timing Graph</h2>
+    <object type="image/svg+xml" data="combined_timing.svg" width="900" height="520"></object>
+    <p><a href="combined_timing.svg" target="_blank">Open combined chart</a></p>
+  </section>
+  <section>
+    <h2>Naive</h2>
+    <object type="image/svg+xml" data="naive_timing.svg" width="900" height="520"></object>
+    <p><a href="naive_timing.svg" target="_blank">Open chart</a></p>
+  </section>
+  <section>
+    <h2>Rabin-Karp</h2>
+    <object type="image/svg+xml" data="rabin-karp_timing.svg" width="900" height="520"></object>
+    <p><a href="rabin-karp_timing.svg" target="_blank">Open chart</a></p>
+  </section>
+  <section>
+    <h2>Data Table</h2>
+    <table>
+      <tr><th>Algorithm</th><th>n</th><th>m</th><th>time (s)</th><th>matches</th></tr>
+      <tr><td>Naive</td><td>100</td><td>4</td><td>0.000001</td><td>1</td></tr>
+      <tr><td>Naive</td><td>200</td><td>4</td><td>0.000001</td><td>2</td></tr>
+      <tr><td>Naive</td><td>500</td><td>5</td><td>0.000002</td><td>1</td></tr>
+      <tr><td>Naive</td><td>1000</td><td>10</td><td>0.000004</td><td>1</td></tr>
+      <tr><td>Naive</td><td>2000</td><td>20</td><td>0.000007</td><td>1</td></tr>
+      <tr><td>Naive</td><td>5000</td><td>50</td><td>0.000016</td><td>1</td></tr>
+      <tr><td>Naive</td><td>10000</td><td>64</td><td>0.000042</td><td>0</td></tr>
+      <tr><td>Rabin-Karp</td><td>100</td><td>4</td><td>0.000000</td><td>1</td></tr>
+      <tr><td>Rabin-Karp</td><td>200</td><td>4</td><td>0.000000</td><td>2</td></tr>
+      <tr><td>Rabin-Karp</td><td>500</td><td>5</td><td>0.000001</td><td>1</td></tr>
+      <tr><td>Rabin-Karp</td><td>1000</td><td>10</td><td>0.000001</td><td>1</td></tr>
+      <tr><td>Rabin-Karp</td><td>2000</td><td>20</td><td>0.000003</td><td>1</td></tr>
+      <tr><td>Rabin-Karp</td><td>5000</td><td>50</td><td>0.000008</td><td>1</td></tr>
+      <tr><td>Rabin-Karp</td><td>10000</td><td>64</td><td>0.000011</td><td>0</td></tr>
+    </table>
+  </section>
+</body>
+</html>

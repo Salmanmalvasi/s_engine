@@ -1,0 +1,9 @@
+Huffman Coding Timing Results
+==============================
+n=10: time=1.3e-05 seconds
+n=50: time=1.9e-05 seconds
+n=100: time=1.9e-05 seconds
+n=500: time=5.6e-05 seconds
+n=1000: time=0.000108 seconds
+n=5000: time=0.000751 seconds
+n=10000: time=0.001597 seconds

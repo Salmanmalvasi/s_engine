@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <style>
+    .axis { stroke: #555; stroke-width: 1; }
+    .grid { stroke: #ccc; stroke-width: 0.5; }
+    .label { font: 12px sans-serif; fill: #333; }
+  </style>
+  <rect width="100%" height="100%" fill="#fff" />
+    <text x="450.0" y="30" text-anchor="middle" class="label" font-size="18">MCM Time Complexity (Random Inputs)</text>
+  <line class="axis" x1="80" y1="420" x2="820" y2="420" />
+  <line class="axis" x1="80" y1="80" x2="80" y2="420" />
+  <text x="450.0" y="480" text-anchor="middle" class="label">n (number of matrices + 1)</text>
+  <text x="20" y="250.0" text-anchor="middle" transform="rotate(-90 20,250.0)" class="label">Time (s)</text>
+  <line class="grid" x1="80.0" y1="80" x2="80.0" y2="420" />
+  <text x="80.0" y="440" text-anchor="middle" class="label">5</text>
+  <line class="grid" x1="80" y1="80.0" x2="820" y2="80.0" />
+  <text x="70" y="84.0" text-anchor="end" class="label">5.30e-05</text>
+  <line class="grid" x1="265.0" y1="80" x2="265.0" y2="420" />
+  <text x="265.0" y="440" text-anchor="middle" class="label">16</text>
+  <line class="grid" x1="80" y1="165.0" x2="820" y2="165.0" />
+  <text x="70" y="169.0" text-anchor="end" class="label">3.98e-05</text>
+  <line class="grid" x1="450.0" y1="80" x2="450.0" y2="420" />
+  <text x="450.0" y="440" text-anchor="middle" class="label">28</text>
+  <line class="grid" x1="80" y1="250.0" x2="820" y2="250.0" />
+  <text x="70" y="254.0" text-anchor="end" class="label">2.65e-05</text>
+  <line class="grid" x1="635.0" y1="80" x2="635.0" y2="420" />
+  <text x="635.0" y="440" text-anchor="middle" class="label">39</text>
+  <line class="grid" x1="80" y1="335.0" x2="820" y2="335.0" />
+  <text x="70" y="339.0" text-anchor="end" class="label">1.32e-05</text>
+  <line class="grid" x1="820.0" y1="80" x2="820.0" y2="420" />
+  <text x="820.0" y="440" text-anchor="middle" class="label">50</text>
+  <line class="grid" x1="80" y1="420.0" x2="820" y2="420.0" />
+  <text x="70" y="424.0" text-anchor="end" class="label">0.00e+00</text>
+  <polyline fill="none" stroke="#1f77b4" stroke-width="2" points="80.0,387.92452830188677 162.22222222222223,387.92452830188677 244.44444444444443,394.33962264150944 326.66666666666663,381.50943396226415 408.88888888888886,349.433962264151 491.11111111111114,317.35849056603774 655.5555555555555,227.54716981132077 820.0,80.0" />
+  <circle cx="80.0" cy="387.92452830188677" r="4" fill="#1f77b4" />
+  <circle cx="162.22222222222223" cy="387.92452830188677" r="4" fill="#1f77b4" />
+  <circle cx="244.44444444444443" cy="394.33962264150944" r="4" fill="#1f77b4" />
+  <circle cx="326.66666666666663" cy="381.50943396226415" r="4" fill="#1f77b4" />
+  <circle cx="408.88888888888886" cy="349.433962264151" r="4" fill="#1f77b4" />
+  <circle cx="491.11111111111114" cy="317.35849056603774" r="4" fill="#1f77b4" />
+  <circle cx="655.5555555555555" cy="227.54716981132077" r="4" fill="#1f77b4" />
+  <circle cx="820.0" cy="80.0" r="4" fill="#1f77b4" />
+</svg>

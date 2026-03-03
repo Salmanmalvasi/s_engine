@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# C/C++ build outputs
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+
+# Debug/IDE artifacts
+*.dSYM/
+
+# Compiled binaries in subfolders
+bellman_ford/bellman_ford
+knapsack_bnb/knapsack_bnb
+rod_cutting/rod_cutting
+string_matching/string_matching
+
+# Generated benchmark artifacts (keep source, ignore generated data if you want)
+# Comment these out if you prefer committing results/charts.
+# **/random_*.txt
+# **/results.txt
+# **/results_table.csv
+# **/charts/

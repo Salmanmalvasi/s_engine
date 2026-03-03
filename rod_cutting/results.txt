@@ -1,0 +1,12 @@
+Rod Cutting Timing Results
+==========================
+n=5: time=7e-06 seconds
+n=10: time=7e-06 seconds
+n=20: time=5e-06 seconds
+n=50: time=6e-06 seconds
+n=100: time=9e-06 seconds
+n=200: time=3.5e-05 seconds
+n=500: time=4.6e-05 seconds
+n=1000: time=0.000185 seconds
+n=2000: time=0.000545 seconds
+n=5000: time=0.002979 seconds

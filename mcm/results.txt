@@ -1,0 +1,10 @@
+MCM Timing Results
+==================
+n=5: time=5e-06 seconds, min_cost=181566
+n=10: time=5e-06 seconds, min_cost=26158
+n=15: time=4e-06 seconds, min_cost=61858
+n=20: time=6e-06 seconds, min_cost=202796
+n=25: time=1.1e-05 seconds, min_cost=311495
+n=30: time=1.6e-05 seconds, min_cost=344536
+n=40: time=3e-05 seconds, min_cost=217090
+n=50: time=5.3e-05 seconds, min_cost=213732

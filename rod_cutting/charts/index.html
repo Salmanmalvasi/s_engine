@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rod Cutting Charts</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; background: #f4f4f4; }
+    h1 { margin-bottom: 0.5rem; }
+    section { margin-bottom: 2rem; background: #ffffff; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,.08); }
+    table { border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid #ccc; padding: 8px 16px; text-align: right; }
+    th { background: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <h1>Rod Cutting Timing Analysis</h1>
+  <section>
+    <h2>Timing Graph (O(n²))</h2>
+    <object type="image/svg+xml" data="rod_cutting_timing.svg" width="900" height="500"></object>
+    <p><a href="rod_cutting_timing.svg" target="_blank">Open chart in new tab</a></p>
+  </section>
+  <section>
+    <h2>Data Table</h2>
+    <table>
+      <tr><th>Rod Length (n)</th><th>Time (seconds)</th></tr>
+      <tr><td>5</td><td>0.000007</td></tr>
+      <tr><td>10</td><td>0.000007</td></tr>
+      <tr><td>20</td><td>0.000005</td></tr>
+      <tr><td>50</td><td>0.000006</td></tr>
+      <tr><td>100</td><td>0.000009</td></tr>
+      <tr><td>200</td><td>0.000035</td></tr>
+      <tr><td>500</td><td>0.000046</td></tr>
+      <tr><td>1000</td><td>0.000185</td></tr>
+      <tr><td>2000</td><td>0.000545</td></tr>
+      <tr><td>5000</td><td>0.002979</td></tr>
+    </table>
+  </section>
+</body>
+</html>

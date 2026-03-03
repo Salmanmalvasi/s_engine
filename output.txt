@@ -1,0 +1,2 @@
+Minimum Cost: 30000
+Optimal Parenthesization: 

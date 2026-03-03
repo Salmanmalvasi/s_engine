@@ -1,0 +1,16 @@
+ILP 11 - Naive String Matching vs Rabin-Karp
+===========================================
+algo=Naive, n=100, m=4: time=6.25e-07 seconds, matches=1
+algo=Rabin-Karp, n=100, m=4: time=2.5e-07 seconds, matches=1
+algo=Naive, n=200, m=4: time=1.042e-06 seconds, matches=2
+algo=Rabin-Karp, n=200, m=4: time=4.17e-07 seconds, matches=2
+algo=Naive, n=500, m=5: time=2.084e-06 seconds, matches=1
+algo=Rabin-Karp, n=500, m=5: time=7.92e-07 seconds, matches=1
+algo=Naive, n=1000, m=10: time=3.792e-06 seconds, matches=1
+algo=Rabin-Karp, n=1000, m=10: time=1.334e-06 seconds, matches=1
+algo=Naive, n=2000, m=20: time=7.042e-06 seconds, matches=1
+algo=Rabin-Karp, n=2000, m=20: time=2.541e-06 seconds, matches=1
+algo=Naive, n=5000, m=50: time=1.55e-05 seconds, matches=1
+algo=Rabin-Karp, n=5000, m=50: time=7.959e-06 seconds, matches=1
+algo=Naive, n=10000, m=64: time=4.225e-05 seconds, matches=0
+algo=Rabin-Karp, n=10000, m=64: time=1.1125e-05 seconds, matches=0

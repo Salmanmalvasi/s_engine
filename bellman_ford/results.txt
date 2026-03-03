@@ -1,0 +1,13 @@
+Algorithm: Bellman-Ford (Single Source Shortest Path)
+ILP 12 - Bellman-Ford Timing Results
+===================================
+algo=Bellman-Ford, n=20, m=80, case=pos: time=7.08e-07 seconds, negCycle=0, reachable=20, sumDist=149
+algo=Bellman-Ford, n=20, m=80, case=neg: time=1.667e-06 seconds, negCycle=1, reachable=20, sumDist=-2665
+algo=Bellman-Ford, n=50, m=250, case=pos: time=2.208e-06 seconds, negCycle=0, reachable=50, sumDist=896
+algo=Bellman-Ford, n=50, m=250, case=neg: time=1.075e-05 seconds, negCycle=1, reachable=50, sumDist=-14096
+algo=Bellman-Ford, n=100, m=700, case=pos: time=5.833e-06 seconds, negCycle=0, reachable=100, sumDist=1134
+algo=Bellman-Ford, n=100, m=700, case=neg: time=5.0875e-05 seconds, negCycle=1, reachable=100, sumDist=-92817
+algo=Bellman-Ford, n=200, m=2000, case=pos: time=1.6375e-05 seconds, negCycle=0, reachable=200, sumDist=1241
+algo=Bellman-Ford, n=200, m=2000, case=neg: time=0.000267458 seconds, negCycle=1, reachable=200, sumDist=-669750
+algo=Bellman-Ford, n=400, m=6000, case=pos: time=4.6041e-05 seconds, negCycle=0, reachable=400, sumDist=1685
+algo=Bellman-Ford, n=400, m=6000, case=neg: time=0.001484208 seconds, negCycle=1, reachable=400, sumDist=-6215823

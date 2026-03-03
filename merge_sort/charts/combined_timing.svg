@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <style>
+    .axis { stroke: #555; stroke-width: 1; }
+    .grid { stroke: #ccc; stroke-width: 0.5; }
+    .label { font: 12px sans-serif; fill: #333; }
+  </style>
+  <rect width="100%" height="100%" fill="#fff" />
+    <text x="450.0" y="30" text-anchor="middle" class="label" font-size="18">Merge Sort Timing Comparison</text>
+  <line class="axis" x1="60" y1="440" x2="840" y2="440" />
+  <line class="axis" x1="60" y1="60" x2="60" y2="440" />
+  <text x="450.0" y="480" text-anchor="middle" class="label">Input size</text>
+  <text x="20" y="250.0" text-anchor="middle" transform="rotate(-90 20,250.0)" class="label">Time (s)</text>
+  <line class="grid" x1="60.0" y1="60" x2="60.0" y2="440" />
+  <text x="60.0" y="460" text-anchor="middle" class="label">1000</text>
+  <line class="grid" x1="60" y1="60.0" x2="840" y2="60.0" />
+  <text x="50" y="64.0" text-anchor="end" class="label">0.01992</text>
+  <line class="grid" x1="255.0" y1="60" x2="255.0" y2="440" />
+  <text x="255.0" y="460" text-anchor="middle" class="label">25750</text>
+  <line class="grid" x1="60" y1="155.0" x2="840" y2="155.0" />
+  <text x="50" y="159.0" text-anchor="end" class="label">0.01498</text>
+  <line class="grid" x1="450.0" y1="60" x2="450.0" y2="440" />
+  <text x="450.0" y="460" text-anchor="middle" class="label">50500</text>
+  <line class="grid" x1="60" y1="250.0" x2="840" y2="250.0" />
+  <text x="50" y="254.0" text-anchor="end" class="label">0.01004</text>
+  <line class="grid" x1="645.0" y1="60" x2="645.0" y2="440" />
+  <text x="645.0" y="460" text-anchor="middle" class="label">75250</text>
+  <line class="grid" x1="60" y1="345.0" x2="840" y2="345.0" />
+  <text x="50" y="349.0" text-anchor="end" class="label">0.0051</text>
+  <line class="grid" x1="840.0" y1="60" x2="840.0" y2="440" />
+  <text x="840.0" y="460" text-anchor="middle" class="label">100000</text>
+  <line class="grid" x1="60" y1="440.0" x2="840" y2="440.0" />
+  <text x="50" y="444.0" text-anchor="end" class="label">0.00016</text>
+  <polyline fill="none" stroke="#1f77b4" stroke-width="2" points="60.0,440.0 91.51515151515152,428.2349370162392 249.0909090909091,366.2376688420094 446.06060606060606,281.9406080841807 840.0,119.74806495674608" />
+  <polyline fill="none" stroke="#ff7f0e" stroke-width="2" points="60.0,439.65396873577174 91.51515151515152,429.36915060454294 249.0909090909091,366.4106844741235 446.06060606060606,285.82384782718674 840.0,144.45085243081905" />
+  <polyline fill="none" stroke="#2ca02c" stroke-width="2" points="60.0,438.7312186978297 91.51515151515152,422.67921282946327 249.0909090909091,345.20665756058077 446.06060606060606,259.8715030100673 840.0,60.0" />
+  <line x1="820" y1="30.0" x2="850" y2="30.0" stroke="#1f77b4" stroke-width="3" />
+  <text x="855" y="34.0" class="label">Ascending</text>
+  <line x1="820" y1="50.0" x2="850" y2="50.0" stroke="#ff7f0e" stroke-width="3" />
+  <text x="855" y="54.0" class="label">Descending</text>
+  <line x1="820" y1="70.0" x2="850" y2="70.0" stroke="#2ca02c" stroke-width="3" />
+  <text x="855" y="74.0" class="label">Random</text>
+</svg>

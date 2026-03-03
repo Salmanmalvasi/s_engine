@@ -1,0 +1,15 @@
+algo,n,m,time_seconds,matches
+Naive,100,4,6.25e-07,1
+Naive,200,4,1.042e-06,2
+Naive,500,5,2.084e-06,1
+Naive,1000,10,3.792e-06,1
+Naive,2000,20,7.042e-06,1
+Naive,5000,50,1.55e-05,1
+Naive,10000,64,4.225e-05,0
+Rabin-Karp,100,4,2.5e-07,1
+Rabin-Karp,200,4,4.17e-07,2
+Rabin-Karp,500,5,7.92e-07,1
+Rabin-Karp,1000,10,1.334e-06,1
+Rabin-Karp,2000,20,2.541e-06,1
+Rabin-Karp,5000,50,7.959e-06,1
+Rabin-Karp,10000,64,1.1125e-05,0

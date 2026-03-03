@@ -1,0 +1,17 @@
+Merge sort batch run results
+===============================
+ascending_1000.txt: 0.000158 seconds | sample_output: First 10 elements of sorted array: 1 2 3 4 5 6 7 8 9 10
+ascending_5000.txt: 0.00077 seconds | sample_output: First 10 elements of sorted array: 1 2 3 4 5 6 7 8 9 10
+ascending_25000.txt: 0.003995 seconds | sample_output: First 10 elements of sorted array: 1 2 3 4 5 6 7 8 9 10
+ascending_50000.txt: 0.00838 seconds | sample_output: First 10 elements of sorted array: 1 2 3 4 5 6 7 8 9 10
+ascending_100000.txt: 0.016817 seconds | sample_output: First 10 elements of sorted array: 1 2 3 4 5 6 7 8 9 10
+descending_1000.txt: 0.000176 seconds | sample_output: First 10 elements of sorted array: 1 2 3 4 5 6 7 8 9 10
+descending_5000.txt: 0.000711 seconds | sample_output: First 10 elements of sorted array: 1 2 3 4 5 6 7 8 9 10
+descending_25000.txt: 0.003986 seconds | sample_output: First 10 elements of sorted array: 1 2 3 4 5 6 7 8 9 10
+descending_50000.txt: 0.008178 seconds | sample_output: First 10 elements of sorted array: 1 2 3 4 5 6 7 8 9 10
+descending_100000.txt: 0.015532 seconds | sample_output: First 10 elements of sorted array: 1 2 3 4 5 6 7 8 9 10
+random_1000.txt: 0.000224 seconds | sample_output: First 10 elements of sorted array: 0 0 1 2 3 3 4 5 6 7
+random_5000.txt: 0.001059 seconds | sample_output: First 10 elements of sorted array: 1 1 4 5 6 6 8 9 10 11
+random_25000.txt: 0.005089 seconds | sample_output: First 10 elements of sorted array: 1 1 2 2 3 3 4 4 4 5
+random_50000.txt: 0.009528 seconds | sample_output: First 10 elements of sorted array: 1 2 4 4 7 8 10 10 10 12
+random_100000.txt: 0.019925 seconds | sample_output: First 10 elements of sorted array: 1 1 2 2 5 7 8 10 12 15
