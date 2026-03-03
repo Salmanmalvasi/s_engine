@@ -46,6 +46,3 @@ Then open:
 - These benchmarks are micro-timings; results will vary by machine and OS.
 - Python scripts are dependency-free (no matplotlib) so they work on most lab machines.
 
-## License
-
-Add a license if you plan to share publicly (MIT is a common choice).
