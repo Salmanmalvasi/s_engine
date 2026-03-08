@@ -1,0 +1,11 @@
+algo,n,m,case,time_seconds,negCycle,reachablePairs,sumDist
+Floyd-Warshall,20,120,pos,1.3417e-05,0,400,1941
+Floyd-Warshall,20,120,neg,1.25e-05,1,400,-34386720
+Floyd-Warshall,30,250,pos,4.1167e-05,0,900,5857
+Floyd-Warshall,30,250,neg,2.2541e-05,1,900,-1937571391273410
+Floyd-Warshall,40,500,pos,5.4875e-05,0,1600,6813
+Floyd-Warshall,40,500,neg,3.8e-05,1,1600,-2379757789981539228
+Floyd-Warshall,60,1200,pos,0.000309208,0,3600,7236
+Floyd-Warshall,60,1200,neg,0.000164458,1,3600,-3133059967692471105
+Floyd-Warshall,80,2000,pos,0.000390417,0,6400,6357
+Floyd-Warshall,80,2000,neg,0.00025425,1,6400,8997190646563394036

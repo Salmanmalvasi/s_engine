@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>ILP 13 - Floyd-Warshall</title>
+<style>body{font-family:system-ui,sans-serif;margin:2rem;background:#f4f4f4}section{margin-bottom:2rem;background:#fff;padding:1rem;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.08)}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccc;padding:8px 14px;text-align:right}th{background:#f0f0f0}td:first-child,th:first-child{text-align:left}</style>
+</head>
+<body>
+<h1>ILP 13 — Floyd–Warshall</h1>
+<p><strong>Algorithm:</strong> Floyd–Warshall (All-Pairs Shortest Paths) | Complexity: O(n³)</p>
+<section><h2>Timing Graph</h2>
+<object type="image/svg+xml" data="floyd_warshall_timing.svg" width="900" height="520"></object>
+<p><a href="floyd_warshall_timing.svg" target="_blank">Open chart</a></p></section>
+<section><h2>Data Table</h2><table>
+<tr><th>case</th><th>n</th><th>m</th><th>time (s)</th><th>negCycle</th><th>reachablePairs</th><th>sumDist</th></tr>
+<tr><td>neg</td><td>20</td><td>120</td><td>0.000013</td><td>1</td><td>400</td><td>-34386720</td></tr>
+<tr><td>pos</td><td>20</td><td>120</td><td>0.000013</td><td>0</td><td>400</td><td>1941</td></tr>
+<tr><td>neg</td><td>30</td><td>250</td><td>0.000023</td><td>1</td><td>900</td><td>-1937571391273410</td></tr>
+<tr><td>pos</td><td>30</td><td>250</td><td>0.000041</td><td>0</td><td>900</td><td>5857</td></tr>
+<tr><td>neg</td><td>40</td><td>500</td><td>0.000038</td><td>1</td><td>1600</td><td>-2379757789981539228</td></tr>
+<tr><td>pos</td><td>40</td><td>500</td><td>0.000055</td><td>0</td><td>1600</td><td>6813</td></tr>
+<tr><td>neg</td><td>60</td><td>1200</td><td>0.000164</td><td>1</td><td>3600</td><td>-3133059967692471105</td></tr>
+<tr><td>pos</td><td>60</td><td>1200</td><td>0.000309</td><td>0</td><td>3600</td><td>7236</td></tr>
+<tr><td>neg</td><td>80</td><td>2000</td><td>0.000254</td><td>1</td><td>6400</td><td>8997190646563394036</td></tr>
+<tr><td>pos</td><td>80</td><td>2000</td><td>0.000390</td><td>0</td><td>6400</td><td>6357</td></tr>
+</table></section>
+</body>
+</html>

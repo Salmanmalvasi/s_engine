@@ -1,0 +1,13 @@
+Algorithm: Floyd-Warshall (All-Pairs Shortest Paths)
+ILP 13 - Floyd-Warshall Timing Results
+=====================================
+algo=Floyd-Warshall, n=20, m=120, case=pos: time=1.3417e-05 seconds, negCycle=0, reachablePairs=400, sumDist=1941
+algo=Floyd-Warshall, n=20, m=120, case=neg: time=1.25e-05 seconds, negCycle=1, reachablePairs=400, sumDist=-34386720
+algo=Floyd-Warshall, n=30, m=250, case=pos: time=4.1167e-05 seconds, negCycle=0, reachablePairs=900, sumDist=5857
+algo=Floyd-Warshall, n=30, m=250, case=neg: time=2.2541e-05 seconds, negCycle=1, reachablePairs=900, sumDist=-1937571391273410
+algo=Floyd-Warshall, n=40, m=500, case=pos: time=5.4875e-05 seconds, negCycle=0, reachablePairs=1600, sumDist=6813
+algo=Floyd-Warshall, n=40, m=500, case=neg: time=3.8e-05 seconds, negCycle=1, reachablePairs=1600, sumDist=-2379757789981539228
+algo=Floyd-Warshall, n=60, m=1200, case=pos: time=0.000309208 seconds, negCycle=0, reachablePairs=3600, sumDist=7236
+algo=Floyd-Warshall, n=60, m=1200, case=neg: time=0.000164458 seconds, negCycle=1, reachablePairs=3600, sumDist=-3133059967692471105
+algo=Floyd-Warshall, n=80, m=2000, case=pos: time=0.000390417 seconds, negCycle=0, reachablePairs=6400, sumDist=6357
+algo=Floyd-Warshall, n=80, m=2000, case=neg: time=0.00025425 seconds, negCycle=1, reachablePairs=6400, sumDist=8997190646563394036
