@@ -1,0 +1,6 @@
+Algorithm: Line Segment Intersection
+algo=Line-Segment, n=1000, case=random: 0.000007 seconds
+algo=Line-Segment, n=5000, case=random: 0.000032 seconds
+algo=Line-Segment, n=10000, case=random: 0.000064 seconds
+algo=Line-Segment, n=20000, case=random: 0.000132 seconds
+algo=Line-Segment, n=50000, case=random: 0.000318 seconds

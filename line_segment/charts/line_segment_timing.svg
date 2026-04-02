@@ -1,0 +1,15 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="white"/>
+<text x="400" y="30" text-anchor="middle" font-size="16" font-family="sans-serif">Line Segment Intersection (O(N) total)</text>
+<polyline points="64.0,343.39622641509436 120.0,319.811320754717 190.0,289.62264150943395 330.0,225.47169811320754 750.0,50.0" fill="none" stroke="blue" stroke-width="2"/>
+<circle cx="64.0" cy="343.39622641509436" r="4" fill="red"/>
+<text x="64.0" y="333.39622641509436" font-size="10" font-family="sans-serif" text-anchor="middle">0.000007s</text>
+<circle cx="120.0" cy="319.811320754717" r="4" fill="red"/>
+<text x="120.0" y="309.811320754717" font-size="10" font-family="sans-serif" text-anchor="middle">0.000032s</text>
+<circle cx="190.0" cy="289.62264150943395" r="4" fill="red"/>
+<text x="190.0" y="279.62264150943395" font-size="10" font-family="sans-serif" text-anchor="middle">0.000064s</text>
+<circle cx="330.0" cy="225.47169811320754" r="4" fill="red"/>
+<text x="330.0" y="215.47169811320754" font-size="10" font-family="sans-serif" text-anchor="middle">0.000132s</text>
+<circle cx="750.0" cy="50.0" r="4" fill="red"/>
+<text x="750.0" y="40.0" font-size="10" font-family="sans-serif" text-anchor="middle">0.000318s</text>
+</svg>
